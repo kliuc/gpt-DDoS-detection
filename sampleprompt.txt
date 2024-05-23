@@ -1,0 +1,10 @@
+{System}
+You will be provided with a sample of network traffic data that is split between training data and a single testing data (separated by '###'). Each row of data is separated by a newline, and each row has features that are separated by a pipe symbol ('|'). Using information from the training data, predict the best label (BENIGN or DDoS) for the testing data. First explain your reasoning for the selected label. Then indicate the predicted label with '$$$' on each side.
+
+{User}
+Bwd Packet Length Min: 0 | Bwd Packet Length Std: 0 | Average Packet Size: 0 | Flow Duration: 0 | Time Between Packets Std: 0 | Label: BENIGN
+Bwd Packet Length Min: 0 | Bwd Packet Length Std: 0 | Average Packet Size: 0 | Flow Duration: 0 | Time Between Packets Std: 0 | Label: DDoS
+Bwd Packet Length Min: 0 | Bwd Packet Length Std: 0 | Average Packet Size: 0 | Flow Duration: 0 | Time Between Packets Std: 0 | Label: BENIGN
+Bwd Packet Length Min: 0 | Bwd Packet Length Std: 0 | Average Packet Size: 0 | Flow Duration: 0 | Time Between Packets Std: 0 | Label: DDoS
+###
+Bwd Packet Length Min: 0 | Bwd Packet Length Std: 0 | Average Packet Size: 0 | Flow Duration: 0 | Time Between Packets Std: 0
